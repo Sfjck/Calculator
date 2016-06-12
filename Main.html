@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+
+<link rel="stylesheet" href="Main.css">
+
+<head>
+	<title>Calculator</title>
+</head>
+
+<body>
+	<script src = "Main.js"></script>
+	<div class = "Calculator_Border">
+		<p id = "display"> hello </p>
+		<input id = "input" class = "Input" disabled="true"></input>
+		<br>
+		<button class= "Function_Buttons">Rad</button>
+		<button class= "Function_Buttons">Deg</button>
+		<button class= "Function_Buttons">x!</button>
+		<button class= "Function_Buttons">(</button>
+		<button class= "Function_Buttons">)</button>
+		<button class= "Function_Buttons">%</button>
+		<button class= "Function_Buttons">AC</button>
+		<br>
+		<div class = "Rows">
+			<button class= "Function_Buttons">Inv</button>
+			<button class= "Function_Buttons">sin</button>
+			<button class= "Function_Buttons">ln</button>
+			<button class= "Number_Buttons" onclick="Append(7)">	7</button>
+			<button class= "Number_Buttons" onclick="Append(8)">	8</button>
+			<button class= "Number_Buttons" onclick="Append(9)">	9</button>
+			<button class= "Function_Buttons">/</button>
+		</div>
+		<div class="Rows">
+			<button class= "Function_Buttons">Pi</button>
+			<button class= "Function_Buttons">cos</button>
+			<button class= "Function_Buttons">log</button>
+			<button class= "Number_Buttons" onclick="Append(4)">	4</button>
+			<button class= "Number_Buttons" onclick="Append(5)">	5</button>
+			<button class= "Number_Buttons" onclick="Append(6)">	6</button>
+			<button class= "Function_Buttons">x</button>
+		</div>
+		<div class="Rows">
+			<button class= "Function_Buttons">e</button>
+			<button class= "Function_Buttons">tan</button>
+			<button class= "Function_Buttons">sqrt</button>
+			<button class= "Number_Buttons" onclick="Append(1)">	1</button>
+			<button class= "Number_Buttons" onclick="Append(2)">	2</button>
+			<button class= "Number_Buttons" onclick="Append(3)">	3</button>
+			<button class= "Function_Buttons">-</button>
+		</div>
+		<div class="Rows">
+			<button class= "Function_Buttons">Ans</button>
+			<button class= "Function_Buttons">EXP</button>
+			<button class= "Function_Buttons">x^y</button>
+			<button class= "Number_Buttons" onclick="Append(0)">	0</button>
+			<button class= "Number_Buttons" onclick="AppendDot()">	.</button>
+			<button class= "Equals_Buttons">=</button>
+			<button class= "Function_Buttons">+</button>
+		</div>
+	</div>
+</body>
+</html>
