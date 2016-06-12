@@ -1,0 +1,47 @@
+.Calculator_Border
+{
+	width: 500px;
+	height: 350px;
+	border-style: solid;
+	border-color: gray;
+	margin-left:30px;
+	margin-top:30px;
+	text-align: right;
+	padding-right: 30px;
+}
+
+.Input
+{
+	width: 460px;
+	height: 40px;
+	text-align: right;
+	font-size: 32px;
+}
+
+.Function_Buttons
+{
+	margin-top: 5px;
+	background-color: gray;
+	border-color: gray;
+	width: 63px;
+	height: 40px;
+}
+
+.Number_Buttons
+{
+	width: 63px;
+	height: 40px;
+}
+
+.Equals_Buttons
+{
+	width: 63px;
+	height: 40px;
+	background-color: blue;
+	border-color: blue;
+}
+
+.Rows
+{
+	padding-right: 4px;
+}
